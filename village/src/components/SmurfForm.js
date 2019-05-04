@@ -57,6 +57,7 @@ class SmurfForm extends Component {
             name="height"
           />
           <button type="submit">Add to the village</button>
+          <button type="submit">Delete from the village</button>
         </form>
       </div>
     );
