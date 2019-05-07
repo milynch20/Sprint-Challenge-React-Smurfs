@@ -8,6 +8,7 @@ class NavBar extends React.Component {
             <header>
                 <NavLink exact to="/" className="home-page">Home</NavLink>
                 <NavLink to="/smurf-form" className="add-smurf">Add</NavLink>
+                {/* <NavLink to="/smurf-form" className="update-smurf">Update</NavLink> */}
             </header>
         )
     }
